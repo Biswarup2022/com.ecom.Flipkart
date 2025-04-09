@@ -45,6 +45,6 @@ public class AmazonProductList
 			Thread.sleep(2000);
 		}
 		
-		driver.close();
+		driver.quit();
 	}
 }
